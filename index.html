@@ -1,7 +1,39 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
+<h1>Potholes of New York City</h1>
+<h2>Aurora Koch-Pongsema</h2>
+<!-- Insert picture of pothole here -->
+<p> Drivers, bikers, and pedestrians all hate potholes, and with fluctuating temperatures, heavy traffic, and a constant battle for public resources, the City of New York has to pick and choose which potholes to fix as well as when it can fix them.  What affects how quickly a pothole is repaired?  Are all boroughs treated equally?  Do other factors, such as collisions related to potholes or distance from governmental offices affect repair time?  This project explores these questions using data sets from NYC OpenData and methods learned in a <a href="http://comet.lehman.cuny.edu/stjohn/teaching/data/">course at Lehman College in Spring 2016</a>: Computer Science 464 (Special Topics): Data Science, taught by <a href ="http://comet.lehman.cuny.edu/stjohn/">Professor Katherine St. John</a>.  
+
 <p>I'm hosted with GitHub Pages.</p>
+
+<a href="https://github.com/aurorakp/CMP464Project">GitHub Repository</a>
+
+<h2>Data Sets</h2>
+
+<h3>Primary: 311 Service Requests from 2010 to Present, downloaded April 17, 2016.</h3>
+<p>This <a href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9">data set</a> contains all the reports, requests, and complaints from New Yorkers that contact 311 from any source.  For this project, I filtered it to only examine potholes by filtering it for created dates in 2015, a complaint type of 'Street Condition', and a descriptor of 'Pothole.'  As this data set is constantly updated with new entries and status for existing entries, some updates for pothole reports created in 2015 may be out of date.  For data types in this set, I focused on the created date, closed date, status, borough, and location (latitude and longitude) of each report in this range. </p>
+
+<h3>Secondary: NYPD Motor Vehicle Collisions, downloaded April 17, 2016.</h3>
+<p> This <a href="https://nycopendata.socrata.com/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95">data set</a> contains the 'Details of Motor Vehicle Collisions in New York City provided by the Police Department(NYPD).'  Of particular interest in this data set are the 'Contributing Factor[s]' given for each collision, some of which specify 'Pavement Defective' as a reason for the collision.  The location, date, and estimated time of the accidents are also included.</p>
+
+<h2>Techniques and Analysis</h2>
+
+
+<h2>Citations</h2>
+
+<h3> Code and Inspiration</h3>
+
+Grus, Joel.  "Data Science from Scratch: First Principles with Python."  O'Reilly Media, 30 April 2015. Original repository of code at https://github.com/joelgrus/data-science-from-scratch with additional code downloaded and used as of April/May 2016.       
+
+<h3>Data Sets</h3>
+"311 Service Requests from 2010 to Present."  City of New York, NYC OpenData.  https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 Web. 17 April 2016.
+
+"NYPD Motor Vehicle Collisions."  City of New York, NYC OpenData.  https://nycopendata.socrata.com/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95 Web. 17 April 2016.
+
+
+
+
 </body>
 </html>
