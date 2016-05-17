@@ -1,0 +1,112 @@
+body{
+    /*padding-top: 80px;*/
+    font-size: medium;
+}
+
+.container-fluid{
+    /*padding-top: 60px;*/
+    padding-bottom: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.container-fluid h1
+{
+    padding-top: 80px;
+}
+
+.container-fluid2{
+    
+    /*padding-top: 70px;*/
+    /*padding-bottom: 24px;*/
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.container-fluid3{
+    
+    /*padding-top: 24px;*/
+    /*padding-bottom: 24px;*/
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.bg-1{
+    background-color: #FF9800;
+    
+}
+.navbar{
+    /*padding-top: 15px;*/
+    z-index: 9999;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #F57C00;
+    color: #212121;
+}
+
+.navbar li{
+    font-weight: 600;
+    
+}
+
+.navbar-nav li a:hover{
+    color: #00BCD4 !important;
+}
+.navbar li a, .navbar .navbar-brand {
+color: #fff !important;
+
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+color: #000 !important;
+background-color: #ffa64d !important;
+}
+.navbar-default .navbar-toggle {
+border-color: transparent;
+color: #fff !important;
+}
+
+/*.a.internal{*/
+/*    color: black;*/
+/*}*/
+
+.bg-2 p
+{
+    font-weight: bold;
+}
+
+h1, h2
+{
+    color: #F57C00;
+    
+}
+
+.internal:hover
+{
+    text-decoration: none;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.footer
+{
+    background-color: #F57C00;
+    color: white;
+    font-size: 13px;
+    left: 0;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px; 
+}
+
+.footer p
+{
+    padding: 15px;
+    margin: 0;
+    
+}
