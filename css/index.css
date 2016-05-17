@@ -10,6 +10,11 @@ body{
     padding-right: 60px;
 }
 
+.container-fluid h1
+{
+    padding-top: 80px;
+}
+
 .container-fluid2{
     
     /*padding-top: 70px;*/
@@ -93,20 +98,15 @@ h3{
     font-size: 13px;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 45px;
     width: 100%;
     text-align: center;
-  /*  bottom: 0;*/
-  /*  position: absolute;*/
-  /*right: 0;*/
-  /**/
-  /*left: 0;*/
-  /*display:block;*/
-  /*padding: 1em;*/
+    margin-top: 40px; 
 }
 
 .footer p
 {
-    padding: 10px;
+    padding: 15px;
     margin: 0;
+    font-family: cursive;
 }
